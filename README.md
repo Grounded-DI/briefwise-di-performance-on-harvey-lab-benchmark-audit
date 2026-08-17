@@ -1,3 +1,17 @@
+## Review Status
+
+**Status as of August 17, 2026**
+
+The provisional 501/501 blinded local benchmark-audit result was published on August 10, 2026.
+
+As of August 17, 2026, Grounded DI LLC has received **no substantive public challenge identifying a specific failed criterion, incorrect evidence mapping, package-integrity defect, or reproducibility defect** in the published benchmark materials.
+
+This status is reported for transparency only. The absence of a challenge does **not** constitute independent validation, third-party certification, or an official Harvey or Artificial Analysis evaluation.
+
+The repository remains open to substantive review. If a specific defect is identified and verified, the affected result will be corrected, superseded, or otherwise documented in the repository history.
+
+The 501/501 blinded benchmark only includes the documents referenced in briefwise-di-performance-on-harvey-lab-benchmark-audit. It does NOT include other Harvey LAB benchmarks taken by Grounded DI LLC referenced in other repositories or contexts.
+
 # BriefWise — Harvey LAB Benchmark Audit
 
 **Grounded DI LLC / BriefWise DI²**
