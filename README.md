@@ -1,10 +1,10 @@
 ## Review Status
 
-**Status as of September 3, 2026**
+**Status as of September 9, 2026**
 
 The provisional 501/501 blinded autonomous benchmark-audit result was published on August 10, 2026.
 
-As of September 3, 2026, Grounded DI LLC has received **no substantive public challenge identifying a specific failed criterion, incorrect evidence mapping, package-integrity defect, or reproducibility defect** in the published benchmark materials.
+As of September 9, 2026, Grounded DI LLC has received **no substantive public challenge identifying a specific failed criterion, incorrect evidence mapping, package-integrity defect, or reproducibility defect** in the published benchmark materials.
 
 This status is reported for transparency only. The absence of a challenge does **not** constitute independent validation, third-party certification, or an official Harvey or Artificial Analysis evaluation.
 
@@ -209,4 +209,4 @@ certified by Harvey or Artificial Analysis.**
 BriefWise DI²  
 Mark S. Weinstein
 
-Benchmark checkpoint: August 10, 2026
+Benchmark checkpoint: August 10, 2026 (updated 9/9/26)
