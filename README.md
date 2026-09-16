@@ -14,11 +14,9 @@ The repository preserves benchmark packages, completed work product, criterion-l
 | --- | --- |
 | Aggregate audit sequence | **501/501 criteria — provisional local audit** |
 | CGL toxic-tort coverage opinion | **64/64 PASS_PROVISIONAL** |
-| Project Ridgeline blind baseline | **36/50 criteria (72%)** |
-| Project Ridgeline rubric-aware run | **50/50 criteria — provisional** |
 | Benchmark source reference | Harvey LAB commit 55510f0e609ffa5cf6f5df17d9a813ce4bb33d0c |
 
-The repository also contains criterion-run packages for deposition admissions (46), executive separation agreement (42), Ridley financial investigation (52), summary-judgment opposition (32), third-party consents (60), and Whitford deposition outline (59). The numbers in those filenames identify the declared criterion set; the aggregate 501/501 status is the published local-audit checkpoint.
+The repository also contains criterion-run packages for deposition admissions (46), executive separation agreement (42), Ridley financial investigation (52), summary-judgment opposition (32), third-party consents (60), Whitford deposition outline (59), and Project Ridgeline. The numbers in those filenames identify the declared criterion set; the aggregate 501/501 status is the published local-audit checkpoint. Any score for a particular package should be taken from that package's own audit record.
 
 ## What Is Being Tested
 
