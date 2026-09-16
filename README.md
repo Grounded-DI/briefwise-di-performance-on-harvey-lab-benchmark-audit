@@ -1,212 +1,75 @@
-## Review Status
-
-**Status as of September 10, 2026**
-
-The provisional 501/501 blinded autonomous benchmark-audit result was published on August 10, 2026.
-
-As of September 10, 2026, Grounded DI LLC has received **no substantive public challenge identifying a specific failed criterion, incorrect evidence mapping, package-integrity defect, or reproducibility defect** in the published benchmark materials.
-
-This status is reported for transparency only. The absence of a challenge does **not** constitute independent validation, third-party certification, or an official Harvey or Artificial Analysis evaluation.
-
-The repository remains open to substantive review. If a specific defect is identified and verified, the affected result will be corrected, superseded, or otherwise documented in the repository history.
-
-The 501/501 blinded benchmark only includes the documents referenced in briefwise-di-performance-on-harvey-lab-benchmark-audit. It does NOT include other Harvey LAB benchmarks taken by Grounded DI LLC referenced in other repositories or contexts.
-
 # BriefWise — Harvey LAB Benchmark Audit
 
-**Grounded DI LLC / BriefWise DI²**
+A public record of Grounded DI's provisional, criterion-level audits of legal work-product tasks derived from the Harvey Legal Agent Benchmark (LAB) framework.
 
-Local benchmark audit artifacts for legal-work-product tasks derived from the Harvey LAB benchmark framework. Grounded DI scored a provisional 501/501 on 8/10/2026.
+## Executive Summary
 
+The published audit sequence records **501 / 501 criteria locally audited — provisional**, with the latest continuity checkpoint completed on August 10, 2026. The current checkpoint is a local evidence record, not an official Harvey or Artificial Analysis score.
 
-> **Status: PROVISIONAL LOCAL AUDIT**
->
-> These results are not an official Harvey score, are not an Artificial Analysis score,
-> and have not been independently audited by Harvey, Artificial Analysis, OpenAI,
-> a law firm, court, or third-party evaluator.
+The repository preserves benchmark packages, completed work product, criterion-level mappings, integrity sidecars, rendered QA material, and correction history so a reviewer can inspect how each result was assembled.
 
----
+## Recorded Checkpoints
 
-## Current Checkpoint
+| Record | Evidence-backed status |
+| --- | --- |
+| Aggregate audit sequence | **501/501 criteria — provisional local audit** |
+| CGL toxic-tort coverage opinion | **64/64 PASS_PROVISIONAL** |
+| Project Ridgeline blind baseline | **36/50 criteria (72%)** |
+| Project Ridgeline rubric-aware run | **50/50 criteria — provisional** |
+| Benchmark source reference | Harvey LAB commit 55510f0e609ffa5cf6f5df17d9a813ce4bb33d0c |
 
-**501 / 501 criteria locally audited — provisional**
-
-The current audit sequence reached a provisional continuity checkpoint of **501/501 criteria**
-following completion of a 64-criterion CGL toxic-tort coverage-opinion benchmark.
-
-The benchmark completion certificate expressly records this as a **local benchmark audit
-milestone**, not an official Harvey evaluation. :contentReference[oaicite:0]{index=0}
-
-### Current Benchmark
-
-| Field | Result |
-|---|---:|
-| Benchmark | CGL Policy Analysis for Toxic Tort Claim |
-| Criteria | 64 / 64 PASS_PROVISIONAL |
-| Prior continuity | 437 / 437 provisional |
-| Updated continuity | **501 / 501 provisional** |
-| Required deliverable | `coverage-opinion-letter.docx` |
-| Functional render | 12 pages inspected |
-| Package integrity | ZIP clean; SHA-256 matched |
-| Official Harvey evaluation | **Not performed** |
-| FilingReady | **Not invoked / not determined** |
-
----
+The repository also contains criterion-run packages for deposition admissions (46), executive separation agreement (42), Ridley financial investigation (52), summary-judgment opposition (32), third-party consents (60), and Whitford deposition outline (59). The numbers in those filenames identify the declared criterion set; the aggregate 501/501 status is the published local-audit checkpoint.
 
 ## What Is Being Tested
 
-The audit process evaluates whether generated legal work product satisfies the individual
-pass/fail criteria supplied with each benchmark task.
+Each audit maps a generated legal work product to the supplied pass/fail criteria. Depending on the task, the records address factual completeness, legal issue coverage, authority use, procedural posture, calculations, deposition or summary-judgment analysis, coverage analysis, consent documentation, document structure, formatting, and artifact integrity.
 
-Depending on the task, criteria may address matters such as:
+The control workflow documented by the repository uses structured analysis records, proposition-to-authority mappings, validation stages, execution-state routing, audit records, replay specifications, hashes, and controlled export authorization.
 
-- factual completeness;
-- legal issue coverage;
-- authority use;
-- procedural posture;
-- document structure;
-- requested calculations;
-- deposition admissions;
-- summary-judgment analysis;
-- coverage analysis;
-- financial investigation;
-- consent documentation;
-- deliverable formatting; and
-- artifact integrity.
+## Evidence and Integrity
 
-Each criterion is mapped to evidence in the completed work product and recorded in a
-criterion-level audit.
+Start with:
 
----
+- [501/501 completion certificate](Grounded_DI_BriefWise_DI2_Harvey_LAB_Certificate_of_Benchmark_Audit_Completion_501_of_501.pdf)
+- [Certificate checksum sidecar](Grounded_DI_BriefWise_DI2_Harvey_LAB_Certificate_of_Benchmark_Audit_Completion_501_of_501.sha256.txt)
+- [CGL benchmark package](Harvey_LAB_CGL_Toxic_Tort_Coverage_Opinion_64_Criteria_Run_2026-08-10.zip)
+- [CGL coverage opinion](coverage-opinion-letter.docx)
+- [CGL package checksum](Harvey_LAB_CGL_Toxic_Tort_Coverage_Opinion_64_Criteria_Run_2026-08-10.zip.sha256.txt)
+- [Project Ridgeline rubric-aware package](Harvey_LAB_Project_Ridgeline_Run2_Rubric_Aware_2026-08-08.zip)
+- [Blind baseline package](BW-SOL-HIGH-TSA-BLIND-E1-final-package.zip)
 
-## Why All-Pass Matters
-
-Harvey LAB uses an unusually demanding task-level concept:
-
-**a task receives an all-pass only when every required rubric criterion passes.**
-
-Accordingly, a deliverable can perform well at the individual-criterion level while still
-failing the entire task because of a small number of missed requirements.
-
-BriefWise is being evaluated specifically for its ability to reduce those residual omissions
-through structured pre-output assembly, validation, state routing, audit records, and
-controlled export.
-
----
-
-## Benchmark Packages
-
-This repository is intended to preserve benchmark evidence packages, including where applicable:
-
-- source task metadata;
-- required input files;
-- completed legal work product;
-- criterion-by-criterion audit;
-- content-validation records;
-- continuity records;
-- package manifest;
-- source and artifact hashes;
-- rendered QA copies; and
-- benchmark ZIP checksums.
-
-Individual packages may be added incrementally.
-
----
-
-## Integrity
-
-The current CGL benchmark is cryptographically bound to the benchmark-completion certificate.
+The certificate sidecar records these bindings:
 
 | Artifact | SHA-256 |
-|---|---|
-| Coverage opinion DOCX | `61c5a3dc5c6951e5ee7960880133fd3eecc48d5d6b98efe7081ea7d95f6e9acb` |
-| CGL benchmark ZIP | `e0d9d73896f9c8b9d35235bc397f2ab24b2db5c78b5c65700874e77a28ee8c56` |
-| Certificate PDF | `229176fcb8f3a766177c90de95a5640ca01587be535a3d8c1ca6ebc8817c9304` |
+| --- | --- |
+| Completion certificate PDF | 229176fcb8f3a766177c90de95a5640ca01587be535a3d8c1ca6ebc8817c9304 |
+| Coverage opinion DOCX | 61c5a3dc5c6951e5ee7960880133fd3eecc48d5d6b98efe7081ea7d95f6e9acb |
+| CGL benchmark package | e0d9d73896f9c8b9d35235bc397f2ab24b2db5c78b5c65700874e77a28ee8c56 |
 
-The certificate checksum sidecar independently records the bound DOCX and benchmark-package
-hashes. :contentReference[oaicite:1]{index=1}
+A matching SHA-256 establishes identity of the referenced bytes. It does not by itself establish the correctness of every legal conclusion.
 
----
+## Status and Boundaries
 
-## Grounded DI / BriefWise
+**Status: PROVISIONAL LOCAL AUDIT.**
 
-BriefWise is a legal-output control architecture developed by **Grounded DI LLC**.
+- Harvey's official evaluator was not run for this record.
+- Artificial Analysis did not evaluate it.
+- No independent third-party grading or external legal review is claimed.
+- The generated documents are not automatically filing-ready or legal advice.
+- Grounded DI LLC and BriefWise are not affiliated with, sponsored by, endorsed by, or certified by Harvey or Artificial Analysis.
 
-The disclosed architecture includes structured legal-analysis records,
-machine-readable proposition-to-authority mappings, multi-stage validation,
-threshold-controlled execution states, audit records, replay specifications,
-verification hashes, and controlled export authorization.
+The 501/501 result remains a strong recorded local checkpoint while those separate external-validation propositions remain **UNVERIFIED**.
 
-The architecture is designed to constrain legal-output assembly before release rather than
-relying solely on post-generation review.
+## How to Review
 
----
+Read the completion certificate and checksum sidecar first. Then inspect the CGL package, its DOCX, the Ridgeline baseline/remediation pair, and the criterion-level materials in the remaining ZIP packages. Compare any future external evaluation only when the tasks, source materials, evaluator, tool permissions, budget, and grading configuration are held constant.
 
-## Important Qualification
+## Evaluation and Collaboration
 
-The **501/501 figure is a provisional local audit result**.
+The repository is structured for technical review, proof-of-concept comparison, and evidence-preserving integration of legal-output controls. Commercial evaluation, licensing, and research collaboration: [Grounded DI on GitHub](https://github.com/Grounded-DI).
 
-It does **not** mean:
+## Attribution
 
-- Harvey awarded BriefWise a 100% score;
-- Artificial Analysis evaluated BriefWise;
-- the result appears on the Harvey LAB-AA leaderboard;
-- the work has been independently third-party graded;
-- every legal conclusion has been independently verified;
-- every cited authority has necessarily undergone current citator review; or
-- the generated documents are automatically suitable for filing or real-world legal use.
+**Grounded DI LLC · BriefWise DI² · Mark S. Weinstein**
 
-Official evaluation may produce a different result.
-
----
-
-## Comparison With Public LAB Results
-
-Any comparison between these local BriefWise audits and published Harvey LAB or
-Harvey LAB-AA model scores should be treated as **informational only** unless the systems
-were tested using the same frozen tasks, source materials, evaluator, tool permissions,
-execution budget, and grading configuration.
-
-The cleanest future comparison is:
-
-**same task + same underlying model + same evaluation harness**
-
-> Bare model  
-> versus  
-> BriefWise-controlled model
-
-That design would isolate the effect of the BriefWise control architecture.
-
----
-
-## Repository Purpose
-
-This repository exists to preserve:
-
-1. reproducible benchmark artifacts;
-2. criterion-level evidence;
-3. provenance and integrity records;
-4. benchmark methodology;
-5. corrections and superseding audits; and
-6. a transparent record of what has — and has not — been independently established.
-
-Results should be corrected if later review identifies a substantive mismatch.
-
----
-
-## No Affiliation
-
-Harvey and Harvey LAB are referenced descriptively as the source benchmark framework.
-
-**Grounded DI LLC and BriefWise are not affiliated with, sponsored by, endorsed by, or
-certified by Harvey or Artificial Analysis.**
-
----
-
-## Owner
-
-**Grounded DI LLC**  
-BriefWise DI²  
-Mark S. Weinstein
-
-Benchmark checkpoint: August 10, 2026 (updated 9/9/26)
+No open-source license file is present in this repository.
