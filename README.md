@@ -4,9 +4,15 @@ A public record of Grounded DI's provisional, criterion-level audits of legal wo
 
 ## Executive Summary
 
-The published audit sequence records **501 / 501 criteria locally audited — provisional**, with the latest continuity checkpoint completed on August 10, 2026. The current checkpoint is a local evidence record, not an official Harvey or Artificial Analysis score.
+The published audit sequence records **501 / 501 criteria locally audited — provisional**, with the latest continuity checkpoint completed on August 10, 2026. This is a Grounded DI local-audit result, not an official Harvey or Artificial Analysis score.
 
 The repository preserves benchmark packages, completed work product, criterion-level mappings, integrity sidecars, rendered QA material, and correction history so a reviewer can inspect how each result was assembled.
+
+## Public Record and Availability
+
+The 501/501 checkpoint and supporting materials were published beginning August 10, 2026 and remain publicly accessible. As of September 20, 2026, they have been available for approximately 40 days.
+
+The repository provides a clear public record and a contact path for substantive response, correction, evaluation, licensing, or research collaboration. No external evaluation, correction, or institutional response is reflected in the repository as of this update. That is a chronology statement about the public record, not an inference about who reviewed it or what any institution knew.
 
 ## Recorded Checkpoints
 
@@ -46,17 +52,17 @@ The certificate sidecar records these bindings:
 
 A matching SHA-256 establishes identity of the referenced bytes. It does not by itself establish the correctness of every legal conclusion.
 
-## Status and Boundaries
+## Status and Scope
 
 **Status: PROVISIONAL LOCAL AUDIT.**
 
-- Harvey's official evaluator was not run for this record.
-- Artificial Analysis did not evaluate it.
-- No independent third-party grading or external legal review is claimed.
-- The generated documents are not automatically filing-ready or legal advice.
-- Grounded DI LLC and BriefWise are not affiliated with, sponsored by, endorsed by, or certified by Harvey or Artificial Analysis.
+These materials record local, reproducible work product and integrity checks. They do not represent an official Harvey or Artificial Analysis score. Any future external comparison should align the tasks, source materials, evaluator, tool permissions, execution budget, and grading configuration.
 
-The 501/501 result remains a strong recorded local checkpoint while those separate external-validation propositions remain **UNVERIFIED**.
+The work products are benchmark artifacts. Their use in practice remains a separate professional judgment.
+
+Harvey and Artificial Analysis are referenced descriptively as benchmark sources. No affiliation, sponsorship, endorsement, or certification is claimed.
+
+The 501/501 result is the repository's documented local-audit checkpoint. External validation would be a separate comparison, not a condition of preserving or assessing this record.
 
 ## How to Review
 
@@ -64,7 +70,7 @@ Read the completion certificate and checksum sidecar first. Then inspect the CGL
 
 ## Evaluation and Collaboration
 
-The repository is structured for technical review, proof-of-concept comparison, and evidence-preserving integration of legal-output controls. Commercial evaluation, licensing, and research collaboration: [Grounded DI on GitHub](https://github.com/Grounded-DI).
+External evaluation, commercial review, licensing, and research collaboration may be directed to [Grounded DI on GitHub](https://github.com/Grounded-DI). The preserved local-audit record stands as a dated Grounded DI artifact regardless of whether an outside institution elects to participate.
 
 ## Attribution
 
