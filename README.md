@@ -77,3 +77,11 @@ External evaluation, commercial review, licensing, and research collaboration ma
 **Grounded DI LLC · BriefWise DI² · Mark S. Weinstein**
 
 No open-source license file is present in this repository.
+
+## Central benchmark collection
+
+[Browse Grounded DI's benchmark and evaluation index](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/blob/main/BENCHMARK_INDEX.md).
+
+- [Preserved collection: harvey-lab](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/tree/main/benchmarks/harvey-lab)
+
+The central hub preserves the 501/501 provisional local-audit scope and links earlier Harvey checkpoints separately. This repository remains the canonical source for its own history and later corrections; the central collection is a dated public snapshot.
