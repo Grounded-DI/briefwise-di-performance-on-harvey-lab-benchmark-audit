@@ -85,3 +85,8 @@ No open-source license file is present in this repository.
 - [Preserved collection: harvey-lab](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/tree/main/benchmarks/harvey-lab)
 
 The central hub preserves the 501/501 provisional local-audit scope and links earlier Harvey checkpoints separately. This repository remains the canonical source for its own history and later corrections; the central collection is a dated public snapshot.
+
+
+## Machine-readable PDF companion
+
+- [501/501 benchmark audit completion certificate — text](Grounded_DI_BriefWise_DI2_Harvey_LAB_Certificate_of_Benchmark_Audit_Completion_501_of_501.md) · [source PDF](Grounded_DI_BriefWise_DI2_Harvey_LAB_Certificate_of_Benchmark_Audit_Completion_501_of_501.pdf)
